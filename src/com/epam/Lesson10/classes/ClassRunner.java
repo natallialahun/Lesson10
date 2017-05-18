@@ -10,7 +10,7 @@ import java.util.List;
 public class ClassRunner {
 
     public static void main(String[] args) {
-        List<String> array = new ArrayList<>();
+        List<String> array = new ArrayList<>();// не надо все код размещать в единственном main методе)
 
         File file = new File("src/com/epam/Lesson10/sourcefiles/file.xml");
         StringBuilder sb= new StringBuilder();
